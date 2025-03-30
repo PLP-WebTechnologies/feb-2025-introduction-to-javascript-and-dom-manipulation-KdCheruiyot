@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    margin: 20px auto;
+    display: block;
+    transition: 0.5s;
+}
+
+.hidden {
+    display: none;
+}
+.box:hover {
+    background-color: lightcoral;
+    transform: scale(1.1);
+}
